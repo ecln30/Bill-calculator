@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <title>Frontend Mentor | Tip calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,28 +18,34 @@
   </style>
 </head>
 <body>
-  <main class="Board">
 
+   
+  <main class="Board">
+       <h1>SPLI</h1>
+       <h1>TTER</h1>
       <div class="container">
 
         <!-- Bill to  -->
 
         <div class="Billing">
-           <p> Bill</p>
-           <input type="text">
+           <p class="Bill"> Bill</p>
+           <input class="item" name="$" type="text" placeholder="$" >
         <div class="TipBtn">
-            <p> Select Tip</p>
-            <button> 5%</button>
-            <button> 10%</button>
-            <button> 15%</button>
-            <button> 25%</button>
-            <button>50%</button>
-            <input>Custom</input>
+            <p class="select"> Select &#160;&#160;Tip&#160;&#160; %</p>
+          <div class="Button">
+
+            <button class="tipbtn"> 5%</button>
+            <button class="tipbtn"> 10%</button>
+            <button class="tipbtn"> 15%</button>
+            <button class="tipbtn"> 25%</button>
+            <button class="tipbtn">50%</button>
+            <input class="tipbtn"  type="text" placeholder="Custom">
+          </div>
       </div>
 
-          <lable> Number of People</lable>
-          <input type="text">
-        </div>
+          <lable class="people"> Number of People</lable>
+          <input type="text" class="number" placeholder="&#61447">
+     </div>
 
      <!-- calculator part -->
 

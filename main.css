@@ -12,40 +12,179 @@
 
 
 
+/* - Strong cyan: hsl(172, 67%, 45%)
+
+### Neutral
+
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: White: hsl(0, 0%, 100%)
+ */
+
+ @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Fira sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   body{
     background:rgb(40, 45, 53);
   }
   
+main {
+   background: hsl(185, 41%, 84%);
+   width: 1440px;;
+   height: 1020px;
+   display: flex;
+   justify-content: center;
+   
+}  
   
   
+ .container {
+    margin-top: 120px;
+    width: 900px;
+    height: 500px;
+    background:hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    padding: 30px;
+ } 
+
+.Billing {
+   display: flex;
+   flex-direction: column;
+   width: 420px;
+   padding: 20px;
+   margin-right: 30px;
+
+}
+
+.Bill{
+  font-size: 20px;
+  color: hsl(184, 14%, 56%)
+}
+
+.item {
+   width: 380px;
+   height: 60px !important;
+   background: hsl(180, 44%, 95%);
+   font-size: 24px;
+   display: flex;
+   text-align:right;
+   padding-right: 20px;
+   border:none;
+   outline: none;
+   color: hsl(183, 100%, 15%)
+}
+
+::placeholder{
+   text-align: left;
+}
+
+.TipBtn {
+   margin-top: 30px;
   
-  
+}
+
+.Button {
+  width: 390px;
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 120px, 120px;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.tipbtn{
+    
+   height: 50px;
+   background-color: hsl(183, 100%, 15%);
+   border: none;
+   border-radius: 5px;
+   font-size: 25px;
+   font-weight: bold;
+   color: rgb(241, 248, 248);
+   font-family: 'Space Mono', monospace;
+}
+
+.Button input {
+    text-align: center;
+   background: rgb(241, 248, 248);
+}
+
+.tipbtn::placeholder{
+    
+    color: hsl(184, 16%, 39%);
+    text-align: center;
+}
+
+.cyan {
+   background:hsl(172, 67%, 45%)
+}
 
 
+.cal-Body {
+  width: 420px;
+  background-color:hsl(183, 100%, 15%);
+  border-radius: 20px;
+}
+
+.select{
+   color: hsl(186, 14%, 43%)
+}
+
+.people {
+   color: hsl(186, 14%, 43%);
+   margin-top: 50px;
+}
 
 
+.number{
+   height: 50px;
+   padding: 0px;
+   font-size: 24px;
+   margin: 5px 0;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   background: hsl(185, 52%, 96%);
+   text-align: right;
+   padding: 10px;
+   color: hsl(183, 100%, 15%)
+ }
+ 
+ .number::-webkit-input-placeholder { 
+     font-family: FontAwesome;
+     width: 3px;
+     height: 3px;
+     font-weight: normal;
+     overflow: visible;
+     vertical-align: top;
+     display: inline-block !important;
+     padding-left: 5px;
+     padding-top: 2px;
+     color: hsl(187, 16%, 69%);
+ }
+ 
 
+/* - Strong cyan: hsl(172, 67%, 45%)
 
+### Neutral
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: White: hsl(0, 0%, 100%)
+ */
 
 
 
