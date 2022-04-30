@@ -57,13 +57,15 @@ main {
    width: 380px;
    height: 60px !important;
    background: hsl(180, 44%, 95%);
-   font-size: 24px;
+   font-size: 25px;
    display: flex;
    text-align:right;
    padding: 20px;
+   border-radius: 5px;
    border:none;
    outline: none;
-   color: hsl(183, 100%, 15%)
+   color: hsl(183, 100%, 15%);
+   cursor: pointer;
 }
 
 ::placeholder{
@@ -83,6 +85,7 @@ main {
   gap: 10px;
   align-items: center;
   padding: 10px 0;
+  
 }
 
 .tipbtn{
@@ -95,14 +98,23 @@ main {
    font-weight: bold;
    color: rgb(241, 248, 248);
    font-family: 'Space Mono', monospace;
+   cursor: pointer
 }
 
 .Button input {
-    text-align: center;
+   height: 50px;
+   font-size: 24px;
+   border-radius: 5px;
+   text-align: center;
    background: rgb(241, 248, 248);
+   color: hsl(183, 100%, 15%);
+   border: none;
+   outline: none;
+   cursor: pointer
 }
 
-.tipbtn::placeholder{
+
+#custom::placeholder{
     
     color: hsl(184, 16%, 39%);
     text-align: center;
@@ -123,9 +135,9 @@ main {
 
 
 .number{
-   height: 50px;
+   height: 60px;
    padding: 0px;
-   font-size: 24px;
+   font-size: 25px;
    margin: 5px 0;
    border-radius: 5px;
    border: none;
@@ -133,7 +145,8 @@ main {
    background: hsl(185, 52%, 96%);
    text-align: right;
    padding: 20px;
-   color: hsl(183, 100%, 15%)
+   color: hsl(183, 100%, 15%);
+   cursor: pointer
  }
  
  .number::-webkit-input-placeholder { 
@@ -191,6 +204,7 @@ main {
    font-size: 45px;
    color: hsl(172, 67%, 45%);
    padding: 5px;
+   text-align: right;
 
 }
 
@@ -200,7 +214,8 @@ main {
   border-radius: 5px;
   border: none;
   color: hsl(183, 100%, 15%);
-  background: hsl(172, 67%, 45%)
+  background: hsl(172, 67%, 45%);
+  cursor: pointer
 }
 
 
