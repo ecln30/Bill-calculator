@@ -21,8 +21,11 @@
 
    
   <main class="Board">
-       <h1>SPLI</h1>
-       <h1>TTER</h1>
+      <div class="title">
+
+        <h1>SPLI</h1>
+        <h1>TTER</h1>
+      </div>
       <div class="container">
 
         <!-- Bill to  -->
@@ -51,14 +54,22 @@
 
        <div class="cal-Body">
           <div class="cal">
-             <label name="amout"> Tip Amount</label>
-             <p>  / person</p>
-             <input type="text" class="amout">
-             <p>  Total</p>
-             <p> / person</p>
+            <div class="sumOf">
+
+              <label name="amout"><h4 class="amount"> Tip &#160Amount</h4> <span class="One">  / &#160person</span></label>
+             
+              <input type="text" class="result">
+            </div>
+
+            <div class="sumOf ">
+
+              <label for=""> <h4 class="sum">  Total</h4>  <span class="One"> /&#160 person</span></label>
+                
+               <input class="result" type="text">
+           </div>
          </div>
 
-         <button>Reset</button>
+         <button class="reset-btn">RESET</button>
            
       </div>
 
