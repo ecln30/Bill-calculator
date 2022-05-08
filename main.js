@@ -55,6 +55,7 @@ function Total() {
     let data = JSON.parse(localStorage.getItem("nums"))
     let percent = data.pop()
     sum.value = "$" + (Bill.value * percent / 100 / person.value).toFixed(2)
+    sum.value === "$infinity" sum.value = " " : " "
    
 }
 
