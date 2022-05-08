@@ -51,9 +51,10 @@ function Tip() {
 
 
 function Total() {
-    console.log(person.value)
+    
     let data = JSON.parse(localStorage.getItem("nums"))
     let percent = data.pop()
+    if(person.value == " " || person.value == 0) person.value = 1
     sum.value = "$" + (Bill.value * percent / 100 / person.value).toFixed(2)
 
 }
